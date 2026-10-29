@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/rocketreach",
   "title": "Rocketreach",
   "description": "RocketReach MCP — wraps the RocketReach person-lookup API (rocketreach.co)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/rocketreach",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-rocketreach",

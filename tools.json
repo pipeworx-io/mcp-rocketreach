@@ -1,0 +1,32 @@
+[
+  {
+    "name": "rocketreach_find_phone",
+    "description": "Find a person's phone number via RocketReach, by name + current employer (or linkedin_url / email). Prefers a recommended direct-dial number when more than one is on file. Example: rocketreach_find_phone({ name: \"Patrick Collison\", current_employer: \"Stripe\", _apiKey: \"your-rocketreach-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Person's full name, e.g. \"Patrick Collison\". Required together with current_employer unless linkedin_url or email is given."
+        },
+        "current_employer": {
+          "type": "string",
+          "description": "Company name the person currently works at, e.g. \"Stripe\"."
+        },
+        "linkedin_url": {
+          "type": "string",
+          "description": "Optional LinkedIn profile URL — can be used instead of name + current_employer."
+        },
+        "email": {
+          "type": "string",
+          "description": "Optional known email address — can be used instead of name + current_employer."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your RocketReach API key (generate one on your Account Settings page)."
+        }
+      },
+      "required": []
+    }
+  }
+]
