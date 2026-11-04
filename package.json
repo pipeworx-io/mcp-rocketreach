@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-rocketreach",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "RocketReach MCP — wraps the RocketReach person-lookup API (rocketreach.co)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "rocketreach",
     "gatewaySlug": "rocketreach",
-    "sourceHash": "v1-08b9dae0c77626c49c8b9b9a65d8c518da3b12988044ab2d907295496fc456c7",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-58c9398c90c0e7c31e5d09e8e27e34e936945c66fc633b6855873ce8c108ccae",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
